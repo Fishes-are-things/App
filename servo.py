@@ -9,9 +9,9 @@ pwm.freq(50) #20ms PWM period
  
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect('SSID','Password')
+wlan.connect('fishes_are_things','Mountychurch_10')
   
-BLYNK_AUTH = "YOUR BLYNK-AUTH-TOKEN"
+BLYNK_AUTH = "RTE3VbVTgjHWWTkANf_elsxymahwWxwO"
   
 # connect the network       
 wait = 10
